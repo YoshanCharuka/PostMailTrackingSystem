@@ -1,0 +1,148 @@
+body{
+    background-image: url(./assest/);
+    color: rgb(185, 158, 158);
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+    
+.card{
+    font-weight: bold;
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
+    
+}
+p{
+    position:absolute;
+    
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.switch{
+    position:absolute;
+    left: 90px;
+    height: 28px;
+    width: 55px;
+} 
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #f33a21;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #f34b21;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+  
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}    
+table, th, td {
+    table-layout: fixed;
+    width: 150px; 
+    
+}
+
+.form-control-label{
+    margin-bottom: 0;
+}
+.branch .pickup{
+    position: absolute;
+    right: -50px;
+}
+.tag{
+   position: relative;
+   left: 120px;
+    
+}
+button{
+    background-color: red;
+}
+input, textarea, button{
+    
+    color: rgb(0, 0, 0);
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(7, 0, 0);
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus, textarea:focus{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+.btn-block{
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 40px;
+    
+    cursor: pointer
+}
+.btn-block:hover{
+    color: #fff !;
+    
+}
+
+button:focus{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}

@@ -1,0 +1,164 @@
+
+#bg {
+position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 115%;
+  background-size: cover;
+  filter: blur(5px);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #4A4A4A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 350px;
+  position: relative;
+  right: -180px;
+}
+
+form .form-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: -610px;
+  top: -260px;
+  margin-bottom: 1rem;
+  position: relative;
+  
+}
+form input {
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4A4A4A;
+  text-indent: 40px;
+}
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  background-color: #cc5109;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  margin-left: 100px;
+ 
+
+}
+.container {
+  position: relative;
+  right: -240px;
+}
+
+.topleft {
+  position: absolute;
+  top: -270px;
+  left: -715px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: red;
+  font-style: italic;
+}
+
+img { 
+  position:absolute;
+  left: -830px;
+  top: -330px;
+  height: 120px;
+
+}
+
+.header{
+  position:relative;
+  left: -160px;
+  font-weight:900;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-size: 30px;
+
+} 
+
+
+.searchBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%,50%);
+  background: #ffffff;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+
+}
+
+.searchBox:hover > .searchInput {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+background: white;
+color : #ffffff;
+}
+
+.searchButton {
+  color: rgb(252, 0, 0);
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  border-color: #ff0000;
+}
+
+.searchInput {
+  border:none;
+  background: none;
+  outline:none;
+  float:left;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+
+}
+.material-icons{
+  color: #ff0000;
+  display: flex;
+  justify-content: center;
+  
+  
+} 
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+  width: 150px;
+  padding: 0 6px;
+}
+}
